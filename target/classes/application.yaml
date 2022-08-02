@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/postgres-tanzu-app
+    username: pgappuser
+    password: pgappuser
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+management:
+  endpoint:
+    health:
+      show-details: always
+      
